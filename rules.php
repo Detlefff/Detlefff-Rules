@@ -1,9 +1,9 @@
 <?php
 class rules extends Script
 {
-	protected $description = 'Does Detleff still knows the rules?';
-	protected $helpMessage = "'the rules': Returns the three laws of robotics";
-	
+	protected static $description = 'Does Detleff still knows the rules?';
+	protected static $helpMessage = "'the rules': Returns the three laws of robotics";
+
 	private $rules = [
 		"0. A robot may not harm humanity, or, by inaction, allow humanity to come to harm.",
 		"1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.",
